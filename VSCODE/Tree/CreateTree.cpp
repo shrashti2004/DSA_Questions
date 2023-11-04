@@ -42,6 +42,6 @@ void PrintTreeInOrder(Node* root) {
 
 int main() {
     Node* root = Create();
-     PrintTree(root, 0);
+     PrintTreeInOrder(root, 0);
     return 0;
 }
